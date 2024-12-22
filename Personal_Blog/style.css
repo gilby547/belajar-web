@@ -1,0 +1,43 @@
+body {
+background-color: antiquewhite;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 20px;    
+}
+
+.container{
+    background-color: aqua;
+    border: 2px dashed black;
+}
+.container li a{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+nav {
+    text-align: cener;
+    display: inline;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav a {
+    width: 20%;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    width: 100%;
+}
+
+nav ul li a:hover {
+    color: red;
+}
