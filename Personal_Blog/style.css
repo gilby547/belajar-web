@@ -52,6 +52,7 @@ nav ul li a:hover {
 #about img {
     height: 200px;
     width: 200px;
+    border-radius: 50%;
 }
 
 #city {
@@ -82,8 +83,43 @@ div.column img {
     height: 200px;
 }
 
+/*button*/
+button {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 5%;
+    left: 95%;
+    padding: 5px;
 
+}
 
+button img {
+    position : relative;
+    max-width: 50px;
+}
 
+#sport {
+    background-color: aquamarine;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    
+}
 
+#home h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+ul li {
+    text-decoration: none;
+    color: black;
+}
+
+.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
