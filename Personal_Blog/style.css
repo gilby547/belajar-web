@@ -83,7 +83,6 @@ div.column img {
     height: 200px;
 }
 
-/*button*/
 button {
     position: fixed;
     bottom: 10px;
@@ -122,4 +121,13 @@ ul li {
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+
+
+#book {
+    background-color: aquamarine;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+
 }
